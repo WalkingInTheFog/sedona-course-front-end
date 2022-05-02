@@ -1,3 +1,39 @@
+:root {
+  --black: #000;
+  --white: #fff;
+  --white-09: rgba(255, 255, 255, 0.9);
+
+  --blue-400: #81B3D2;
+  --blue-300: #81B3D3;
+  --blue-500: #23A9E1;
+  --blue-450: #5496bd;
+  --blue-470: #669EC0;
+
+  --gray-100: #F2F2F2;
+  --gray-120: #EBEBEB;
+  --gray-150: #EEEEEE;
+  --gray-200: #E5E5E5;
+  --gray-250: #CACACA;
+  --gray-300: #ABABAB;
+  --gray-350: #A9A9A9;
+  --gray-400: #BDBBBC;
+  --gray-450: #666666;
+  --gray-500: #6A6A6A;
+  --gray-600: #333333;
+
+  --brown-600: #491213;
+  --brown-500: #766357;
+  --brown-450: #766458;
+  --brown-610: #503E33;
+  --brown-550: #604E43;
+
+  --orange-400: #dc6243;
+  --orange-300: #F49774;
+  --orange-200: #F4B1A4;
+
+  --red-400: #FF0000;
+}
+
 @font-face {
   font-family: "PTSans-Bold";
   font-style: normal;

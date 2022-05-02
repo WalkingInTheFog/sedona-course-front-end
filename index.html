@@ -68,9 +68,96 @@
 
       </section>
 
+      <section class="sign-up">
+
+        <h2 class="sign-up__title">Заинтересовались?</h2>
+
+        <p class="sign-up__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в
+          седоне</p>
+
+        <button class="sign-up__btn" type="button">Поиск гостиницы в седоне</button>
+
+        <form class="sign-up__form" action="https://echo.htmlacademy.ru/" method="post" name="sign-up-hotel">
+
+          <p class="sign-up__form-item">
+
+            <label class="sign-up__form-label" for="arrival-date">Дата заезда:</label>
+
+            <input class="sign-up__form-input" type="text" placeholder="24 Апреля 2017" name="arrival-date"
+              id="arrival-date">
+
+            <button class="sign-up__form-calendar-btn" type="button">
+
+              <span class="visually-hidden">открыть календарь</span>
+
+            </button>
+
+          </p>
+
+          <p class="sign-up__form-item">
+
+            <label class="sign-up__form-label" for="departure-date">Дата выезда:</label>
+
+            <input class="sign-up__form-input" type="text" placeholder="4 июля 2017" name="departure-date"
+              id="departure-date">
+
+            <button class="sign-up__form-calendar-btn" type="button">
+
+              <span class="visually-hidden">открыть календарь</span>
+
+            </button>
+
+          </p>
+
+          <p class="sign-up__form-item sign-up__form-item--half-width">
+
+            <label class="sign-up__form-label" for="adult-count">Взрослые:</label>
+
+            <button class="sign-up__form-decrement-btn" type="button">
+
+              <span class="visually-hidden">уменьшить</span>
+
+            </button>
+
+            <input class="sign-up__form-input" type="text" name="adult-count" id="adult-count">
+
+            <button class="sign-up__form-increment-btn" type="button">
+
+              <span class="visually-hidden">увеличить</span>
+
+            </button>
+
+          </p>
+
+          <p class="sign-up__form-item sign-up__form-item--half-width">
+
+            <label class="sign-up__form-label" for="children-count">Дети:</label>
+
+            <button class="sign-up__form-decrement-btn" type="button">
+
+              <span class="visually-hidden">уменьшить</span>
+
+            </button>
+
+            <input class="sign-up__form-input" type="text" name="children-count" id="children-count">
+
+            <button class="sign-up__form-increment-btn" type="button">
+
+              <span class="visually-hidden">увеличить</span>
+
+            </button>
+
+          </p>
+
+          <button class="sign-up__form-submit-btn" type="submit">Найти</button>
+
+        </form>
+
+      </section>
+
     </main>
 
-    <footer class="main-footer"></footer>
+    <footer class="main-footer main-footer--index"></footer>
 
   </div>
 

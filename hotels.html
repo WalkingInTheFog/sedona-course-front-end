@@ -59,10 +59,126 @@
 
     <main>
 
-      <h1 class="visually-hidden">Познакомьтесь с интересным городком 'Седона'</h1>
+      <h1 class="visually-hidden">Выбери отель мечты в 'Седоне'</h1>
+
+      <section class="filters">
+
+        <form class="filters-hotels inner-container" action="https://echo.htmlacademy.ru/" method="get"
+          name="filters-hotels">
+
+          <fieldset>
+
+            <legend>Инфраструктура:</legend>
+
+            <p class="filters-hotels__item">
+
+              <input class="filters-hotels__input" type="checkbox" name="filters-hotels__infrastructure"
+                id="filters-hotels__infrastructure-pool">
+
+              <label class="filters-hotels__label" for="filters-hotels__infrastructure-pool">Бассейн</label>
+
+            </p>
 
 
+            <p class="filters-hotels__item">
 
+              <input class="filters-hotels__input" type="checkbox" name="filters-hotels__infrastructure"
+                id="filters-hotels__infrastructure-parking">
+
+              <label class="filters-hotels__label" for="filters-hotels__infrastructure-parking">Парковка</label>
+
+            </p>
+
+
+            <p class="filters-hotels__item">
+
+              <input class="filters-hotels__input" type="checkbox" name="filters-hotels__infrastructure"
+                id="filters-hotels__infrastructure-wifi">
+
+              <label class="filters-hotels__label" for="filters-hotels__infrastructure-wifi">wi-fi</label>
+
+            </p>
+
+          </fieldset>
+
+
+          <fieldset>
+
+            <legend>Тип жилья:</legend>
+
+            <p class="filters-hotels__item">
+
+              <input class="filters-hotels__input" type="checkbox" name="filters-hotels__type-housing"
+                id="filters-hotels__type-housing-hotel">
+
+              <label class="filters-hotels__label" for="filters-hotels__type-housing-hotel">Гостиница</label>
+
+            </p>
+
+
+            <p class="filters-hotels__item">
+
+              <input class="filters-hotels__input" type="checkbox" name="filters-hotels__type-housing"
+                id="filters-hotels__type-housing-motel">
+
+              <label class="filters-hotels__label" for="filters-hotels__type-housing-motel">Мотель</label>
+
+            </p>
+
+
+            <p class="filters-hotels__item">
+
+              <input class="filters-hotels__input" type="checkbox" name="filters-hotels__type-housing"
+                id="filters-hotels__type-housing-apartments">
+
+              <label class="filters-hotels__label" for="filters-hotels__type-housing-apartments">Апартаменты</label>
+
+            </p>
+
+          </fieldset>
+
+
+          <fieldset>
+
+            <legend>Стоимость в сутки, ₽:</legend>
+
+            <div class="filters-hotels__price-wrapper">
+
+              <label for="filters-hotels__min-price">Введите минимальную цену:</label>
+
+              <input class="filters-hotels__min-price" type="text" name="filters-hotels__min-price"
+                id="filters-hotels__min-price">
+
+              <label for="filters-hotels__max-price">Введите максимальную цену:</label>
+
+              <input class="filters-hotels__max-price" type="text" name="filters-hotels__max-price"
+                id="filters-hotels__max-price">
+
+            </div>
+
+            <div class="filters-hotels__range-controls">
+
+              <div class="filters-hotels__bar">
+
+                <div class="filters-hotels__scale" style=" width: 70%;"></div>
+
+                <div class="filters-hotels-toggle filters-hotels-toggle__min" tabindex="0" style="left: 0"
+                  aria-label="установить минимальную цену" role="progressbar"></div>
+
+                <div class="filters-hotels-toggle filters-hotels-toggle__max" tabindex="0" style="left: 70%;"
+                  aria-label="установить максимальную  цену" role="progressbar"></div>
+
+              </div>
+
+            </div>
+
+          </fieldset>
+
+          <button type="submit">Показать</button>
+
+        </form>
+
+      </section>
 
 
     </main>

@@ -298,3 +298,31 @@ img {
   line-height: 21px;
   text-transform: uppercase;
 }
+
+/*-----------------sign-up----------------------*/
+.sign-up__title {
+
+  font-family: var(---main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 24px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--black);
+}
+
+.sign-up__text {
+  font-family: var(---main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 24px;
+
+
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--black);
+}

@@ -275,6 +275,13 @@ img {
   text-align: center;
 }
 
+.features-list__item--small .features-item__number,
+.features-list__item--small .features-item__text {
+
+  color: var(--gray-600);
+
+}
+
 /*------------------------guidance-list-----------------------------*/
 .guidance-list__item {
   background-color: var(--white);

@@ -2,6 +2,7 @@
   --black: #000;
   --white: #fff;
   --white-09: rgba(255, 255, 255, 0.9);
+  --black-03: rgba(0, 0, 0, 0.3);
 
   --blue-400: #81B3D2;
   --blue-300: #81B3D3;
@@ -132,4 +133,38 @@ img {
 
   background-color: var(--white);
   box-shadow: 0px 5px 15px rgba(0, 1, 1, 0.2);
+}
+
+
+.main-nav {}
+
+.main-nav-list {}
+
+.reset-list {}
+
+.main-nav-list__item {}
+
+.main-nav-list__link {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.main-nav-list__link:hover,
+.main-nav-list__link:focus {
+  color: var(--blue-400);
+}
+
+.main-nav-list__link:active {
+  color: var(--black-03);
+}
+
+
+.main-nav-list__link--active {
+  color: var(--brown-500);
 }

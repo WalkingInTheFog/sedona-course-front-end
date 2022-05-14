@@ -228,3 +228,49 @@ img {
   text-align: center;
   text-transform: uppercase;
 }
+
+/*----------features-list------*/
+
+.features-item__text-wrapper {
+
+  background-color: var(--blue-400);
+
+  color: var(--white);
+}
+
+.features-item__title {
+  font-family: var(---main-font-family);
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 21px;
+  text-transform: uppercase;
+
+}
+
+.features-item__number {
+
+  font-family: var(---main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+
+}
+
+.features-item__text {
+  font-family: var(---main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.features-list__item--small {
+  background-color: var(--gray-150);
+  color: var(--black);
+  text-align: center;
+}

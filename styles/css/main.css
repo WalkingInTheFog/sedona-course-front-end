@@ -33,6 +33,9 @@
   --orange-200: #F4B1A4;
 
   --red-400: #FF0000;
+
+
+  ---main-font-family: 'PT Sans', sans-serif;
 }
 
 @font-face {
@@ -198,4 +201,30 @@ img {
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 1200px 57px;
+}
+
+/*-------------------------------features-----------------------------------*/
+
+.features__title {
+
+  font-family: var(---main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.features__text {
+  font-family: var(---main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+
+  text-align: center;
+  text-transform: uppercase;
 }

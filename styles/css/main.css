@@ -274,3 +274,27 @@ img {
   color: var(--black);
   text-align: center;
 }
+
+/*------------------------guidance-list-----------------------------*/
+.guidance-list__item {
+  background-color: var(--white);
+}
+
+
+.guidance-item__title {
+  font-family: var(---main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.guidance-item__text {
+  font-family: var(---main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+}

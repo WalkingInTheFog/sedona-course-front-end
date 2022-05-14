@@ -136,6 +136,8 @@ img {
 }
 
 
+/*-----------------------HEADER------------------------------*/
+
 .main-nav {}
 
 .main-nav-list {}
@@ -167,4 +169,33 @@ img {
 
 .main-nav-list__link--active {
   color: var(--brown-500);
+}
+
+/*------------------------welcome--------------------------*/
+
+.welcome {
+  position: relative;
+  min-height: 509px;
+  padding-bottom: 57px;
+  padding-top: 75px;
+
+  background-repeat: no-repeat, no-repeat;
+  background-position: center center, center bottom;
+  background-size: 1200px 509px, 1200px 57px;
+
+  text-align: center;
+}
+
+.welcome::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 1200px;
+  height: 57px;
+
+  background-image: url('../../img/lead-bottom-shape.svg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 1200px 57px;
 }

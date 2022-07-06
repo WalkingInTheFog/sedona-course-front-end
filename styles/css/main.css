@@ -425,3 +425,33 @@ img {
 .sign-up__form-submit-btn:active .sign-up__form-submit-btn-text {
   opacity: 0.3;
 }
+
+
+/*------------------------------------FOOTER------------------------------------------------*/
+
+.main-footer__hash-tag,
+.main-footer__phone-number {
+  font-family: var(---main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: var(--black);
+
+}
+
+
+.main-footer__copy-right {
+  font-family: var(---main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+
+  color: var(--black);
+}

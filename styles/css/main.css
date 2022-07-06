@@ -335,3 +335,58 @@ img {
   text-transform: uppercase;
   color: var(--gray-600);
 }
+
+.sign-up__btn {
+
+  border: none;
+
+  font-family: var(---main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: var(--white);
+  text-transform: uppercase;
+  text-align: center;
+
+  background-color: var(--brown-500);
+
+  cursor: pointer;
+
+}
+
+
+.sign-up__btn:hover {
+  background-color: var(--brown-550);
+}
+
+
+.sign-up__btn:active {
+  background-color: var(--brown-610);
+}
+
+.sign-up__btn:active .sign-up__btn-text {
+  opacity: 0.3;
+}
+
+/*
+.sign-up__form-submit-btn {
+
+
+  border: none;
+
+  font-family: var(---main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: var(--white);
+  text-transform: uppercase;
+  text-align: center;
+
+  background-color: var(--blue-400);
+
+  cursor: pointer;
+
+}
+*/

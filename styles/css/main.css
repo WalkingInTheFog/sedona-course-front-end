@@ -370,6 +370,31 @@ img {
   opacity: 0.3;
 }
 
+
+.sign-up__form-label {
+  font-family: var(---main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: var(--black);
+  text-transform: uppercase;
+}
+
+
+.sign-up__form-input::placeholder {
+  font-family: var(---main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: var(--black);
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+
+
 .sign-up__form-submit-btn {
 
   border: none;

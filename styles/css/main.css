@@ -7,8 +7,9 @@
   --blue-400: #81B3D2;
   --blue-300: #81B3D3;
   --blue-500: #23A9E1;
-  --blue-450: #5496bd;
-  --blue-470: #669EC0;
+  --blue-450: #669EC0;
+  --blue-470: #5496bd;
+
 
   --gray-100: #F2F2F2;
   --gray-120: #EBEBEB;
@@ -369,9 +370,7 @@ img {
   opacity: 0.3;
 }
 
-/*
 .sign-up__form-submit-btn {
-
 
   border: none;
 
@@ -389,4 +388,15 @@ img {
   cursor: pointer;
 
 }
-*/
+
+.sign-up__form-submit-btn:hover {
+  background-color: var(--blue-450);
+}
+
+.sign-up__form-submit-btn:active {
+  background-color: var(--blue-470);
+}
+
+.sign-up__form-submit-btn:active .sign-up__form-submit-btn-text {
+  opacity: 0.3;
+}

@@ -456,8 +456,10 @@ img {
   color: var(--black);
 }
 
-/*
-.main-footer__copy-right:hover .logo-html-academy {
+.main-footer__copy-right:hover .logo-html-academy path {
   fill: var(--blue-400);
 }
- */
+
+.main-footer__copy-right:active .logo-html-academy path {
+  fill: var(--gray-400);
+}
